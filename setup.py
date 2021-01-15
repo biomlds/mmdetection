@@ -6,7 +6,7 @@ from setuptools import find_packages, setup
 try:
   import torch
 except ImportError:
-  print "Trying to Install required module: torch\n"
+  print("Trying to Install required module: torch\n")
   os.system('python -m pip install torch==1.6.0+cpu')
 
 
