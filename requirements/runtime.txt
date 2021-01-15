@@ -1,5 +1,6 @@
 matplotlib
-mmpycocotools
+#mmpycocotools
+-e git+git://github.com/biomlds/mmpycocotools-12.0.3.git#egg=mmpycocotools
 numpy
 six
 terminaltables
