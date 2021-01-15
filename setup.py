@@ -7,7 +7,7 @@ try:
   import torch
 except ImportError:
   print("Trying to Install required module: torch\n")
-  os.system('python -m pip install torch==1.6.0+cpu -f https://download.pytorch.org/whl/torch_stable.html')
+  os.system('python -m pip install torch==1.6.0+cpu torchvision==0.7.0+cpu -f https://download.pytorch.org/whl/torch_stable.html')
 
 
 import torch
