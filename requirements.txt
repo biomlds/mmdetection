@@ -2,3 +2,5 @@
 -r requirements/optional.txt
 -r requirements/runtime.txt
 -r requirements/tests.txt
+torch==1.6.0+cpu
+torchvision==0.7.0+cpu
